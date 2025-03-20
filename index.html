@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imgs/eaNKXuJc.jpg" type="image/x-icon">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div class="nav">
+                <img src="imgs/eaNKXuJc.jpg" alt="logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">More</a></li>
+
+                    </ul>
+                </nav>
+                <button type="button">Get Started</button>
+            </div>
+            <div id="main">
+                <div class="calculation">
+                    <div class="multi">
+                        <form>
+                            <label>Enter The Number for Multiplication</label>
+                            <input type="number" name="number" id="num">
+                            <button type="button" id="btn" onclick="generateMulti()">Generate Table</button>
+                            <p id="err" style="display: none;"></p>
+                        </form>
+                    </div>
+                    <div class="others">
+                        <h2>Want to try other Tables?</h2>
+                        <form>
+                            <button type="button">Division</button>
+                            <button type="button">Addition</button>
+                            <button type="button">Substraction</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h2 id="h"></h2>
+                    <p id="p"></p>
+                </div>
+            </div>
+            <footer>
+                &copy;Multiplication table generator. all right reserved.
+            </footer>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
