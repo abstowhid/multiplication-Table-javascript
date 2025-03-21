@@ -214,3 +214,65 @@ footer {
 /* .foot {
     float: bottom;
 } */
+
+@media screen and (max-width: 720px) {
+    body {
+        background-image: url(imgs/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+        background-image: linear-gradient(
+            30deg,
+            rgb(52, 152, 247),
+            rgb(42, 240, 207),
+            rgb(21, 37, 180)
+        );
+        background-size: cover;
+    }
+    .nav {
+        padding: 0.3rem 0.3rem;
+    }
+    .nav nav ul li a {
+        text-decoration: none;
+        padding: 0.2rem 0.7rem;
+    }
+    .nav button {
+        padding: 0.4rem 0.7rem;
+    }
+    .calculation {
+        flex-direction: column-reverse;
+        gap: 0.4rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .multi {
+        border-right: 0px solid rgb(75, 147, 255);
+        border-top: 2px solid rgb(75, 147, 255);
+        padding: 0.4rem;
+        padding-right: 0rem;
+    }
+    .others {
+        justify-content: center;
+        align-items: center;
+        padding: 0.1rem;
+    }
+    .others h2 {
+        margin-bottom: 0.7rem;
+        text-align: center;
+    }
+    .blog {
+        background-image: linear-gradient(
+            to top right,
+            rgb(122, 18, 207),
+            rgb(53, 53, 252)
+        );
+        padding: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .blogParent {
+        margin-top: -2rem;
+        flex-basis: 90%;
+    }
+    .blog h3 {
+        margin-bottom: 0.5rem;
+    }
+}
