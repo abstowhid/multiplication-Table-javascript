@@ -215,6 +215,8 @@ footer {
 
 @media screen and (max-width: 720px) {
     body {
+        width: 100vw;
+        height: 100vh;
         background-image: url(imgs/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
         background-image: linear-gradient(
             30deg,
@@ -223,8 +225,6 @@ footer {
             rgb(21, 37, 180)
         );
         background-size: 100%;
-        width: 100%;
-        height: auto;
     }
     .nav {
         padding: 0.3rem 0.3rem;
