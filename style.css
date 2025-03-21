@@ -207,6 +207,7 @@ footer {
 .blogParent {
     margin-top: -2rem;
     flex-basis: 90%;
+    width: 100%;
 }
 .blog h3 {
     margin-bottom: 0.5rem;
