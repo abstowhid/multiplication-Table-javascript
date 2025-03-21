@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(
+        to top right,
+        rgb(122, 18, 207),
+        rgb(53, 53, 252)
+    );
+    background-image: linear-gradient(
+        30deg,
+        rgb(52, 152, 247),
+        rgb(42, 240, 207),
+        rgb(21, 37, 180)
+    );
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    height: auto;
+}
+#id {
+    text-align: center;
+    width: 100%;
+}
