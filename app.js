@@ -26,6 +26,7 @@ function generateMulti() {
         'h'
     ).textContent = `Showing Multiplication Table for ${finalInput}`;
     document.getElementById('result').style.display = 'block';
+    document.getElementById('h').style.display = 'block';
     for (let i = 1; i <= 10; i++) {
         result = i * finalInput;
         document.getElementById(
